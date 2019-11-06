@@ -3,7 +3,7 @@
 }
 
 .images {
-    display: flex;
+    display: block;
     flex-wrap: wrap;
 }
 
