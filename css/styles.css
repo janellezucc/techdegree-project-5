@@ -5,9 +5,12 @@
 .images {
     display: block;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .search {
     display: flex;
     flex-wrap: wrap; 
+    justify-content: center;
+    padding: 20px 50px;
 }
