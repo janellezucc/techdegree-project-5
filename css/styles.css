@@ -1,16 +1,21 @@
 * {
     box-sizing: border-box;
-}
-
-.images {
-    display: block;
     flex-wrap: wrap;
     justify-content: center;
 }
 
+.images {
+    display: block;
+}
+
 .search {
     display: flex;
-    flex-wrap: wrap; 
-    justify-content: center;
     padding: 20px 50px;
+    border-radius: 15px;
+}
+
+.large {
+    display: inline-flex;
+    padding: 15px 60px;
+    margin-left: 20px;
 }
