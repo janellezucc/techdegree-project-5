@@ -1,4 +1,4 @@
-var images = $('.images a').Lightbox();
+const images = $('.images a').lightbox();
 
 let searchBox = document.querySelector('#search');
 let pictures = document.querySelectorAll('a');
@@ -10,4 +10,8 @@ searchBox.addEventListener('keyup', () => {
             pictures[i].style.display = 'none';
         } 
     } 
+});
+
+$(document).ready(function() {
+	$('#search').hideseek();
 });

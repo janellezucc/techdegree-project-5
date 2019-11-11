@@ -6,13 +6,16 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/reset.css">
         <link rel="stylesheet" href="dist/lightbox.min.css">
+        <link rel="stylesheet" href="searchbox/jquery.hideseek.min.js">
         <link rel="stylesheet" href=css/styles.css>
         <title>Image Gallery</title>
+
+        <script type="text/javascript" src="jquery.hideseek.min.js"></script>
     </head>
     <body>
         <section>
             <div class = "search">
-                <input type="text" id="search" placeholder="Search">
+                <input id="search" name="search" placeholder="Search" type="text" data-list=".list">
             </div>
 
             <div class = "images"></div>
@@ -77,6 +80,7 @@
                 </a>
         </section>
         <script src="js/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript" src="jquery-2.0.2.min.js"></script>
         <script src="dist/lightbox.js"></script>
         <script src="js/scripts.js"></script>
     </body>
