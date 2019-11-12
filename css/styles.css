@@ -8,14 +8,28 @@
     display: block;
 }
 
-.search {
+.search-container {
     display: flex;
     padding: 20px 50px;
     border-radius: 15px;
+}
+
+.search-container #search {
+    margin: 0;
+    padding: 10px 15px;
+    border: 2px solid #CCC;
+    line-height: 20px;
+    width: 30%;
+    border-radius: 2px;
+    font-size: 16px;
 }
 
 .large {
     display: inline-flex;
     padding: 15px 60px;
     margin-left: 20px;
+}
+
+.display-none {
+    display: none;
 }

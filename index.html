@@ -4,83 +4,94 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-US-Compatible" content="IE=edge,chrome=1">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="css/reset.css">
-        <link rel="stylesheet" href="dist/lightbox.min.css">
-        <link rel="stylesheet" href="searchbox/jquery.hideseek.min.js">
-        <link rel="stylesheet" href=css/styles.css>
         <title>Image Gallery</title>
 
-        <script type="text/javascript" src="jquery.hideseek.min.js"></script>
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="dist/lightbox.min.css">
+        <link rel="stylesheet" href=css/styles.css>
     </head>
     <body>
         <section>
-            <div class = "search">
-                <input id="search" name="search" placeholder="Search" type="text" data-list=".list">
+            <div class="search-container">
+                <input autofocus id="search" name="search" placeholder="Search" type="text" data-list=".images">
             </div>
 
-            <div class = "images"></div>
+            <div class="images">
             <!--Hay Bales-->
                 <a href="images/larger/01.jpg" class="large" data-lightbox="large" data-title="I love hay bales. Took this snap on a drive through the countryside past some straw fields.">
-                <img src="images/thumbnails/01.jpg" alt="Hay bales" title="I love hay bales. Took this snap on a drive through the countryside past some straw fields.">
+                    <span class="display-none">I love hay bales. Took this snap on a drive through the countryside past some straw fields.</span>
+                    <img src="images/thumbnails/01.jpg" alt="Hay bales" title="I love hay bales. Took this snap on a drive through the countryside past some straw fields.">
                 </a>
                 
                 <!--Lake-->
                 <a href="images/larger/02.jpg" class="large" data-lightbox="large" data-title="The lake was so calm today. We had a great view of the snow on the mountains from here.">
-                <img src="images/thumbnails/02.jpg" alt="Lake" title="The lake was so calm today. We had a great view of the snow on the mountains from here.">
+                    <span class="display-none">The lake was so calm today. We had a great view of the snow on the mountains from here.</span>
+                    <img src="images/thumbnails/02.jpg" alt="Lake" title="The lake was so calm today. We had a great view of the snow on the mountains from here.">
                 </a>
 
             <!--Canyon-->
                 <a href="images/larger/03.jpg" class="large" data-lightbox="large" data-title="I hiked to the top of the mountain and got this picture of the canyon and trees below.">
-                <img src="images/thumbnails/03.jpg" alt="Canyon" title="I hiked to the top of the mountain and got this picture of the canyon and trees below.">
+                    <span class="display-none">I hiked to the top of the mountain and got this picture of the canyon and trees below.</span>
+                    <img src="images/thumbnails/03.jpg" alt="Canyon" title="I hiked to the top of the mountain and got this picture of the canyon and trees below.">
                 </a>
 
             <!--Iceberg-->
-                <a href="images/larger/04.jpg" class="large" data-lightbox="large" data-title="It was amazing to see an iceberg up close, it was so cold but didn’t snow today. ">
-                <img src="images/thumbnails/04.jpg" alt="Iceberg" title="It was amazing to see an iceberg up close, it was so cold but didn’t snow today. ">
+                <a href="images/larger/04.jpg" class="large" data-lightbox="large" data-title="It was amazing to see an iceberg up close, it was so cold but didn’t snow today.">
+                    <span class="display-none">It was amazing to see an iceberg up close, it was so cold but didn’t snow today.</span>
+                    <img src="images/thumbnails/04.jpg" alt="Iceberg" title="It was amazing to see an iceberg up close, it was so cold but didn’t snow today.">
                 </a>
 
             <!--Desert-->
                 <a href="images/larger/05.jpg" class="large" data-lightbox="large" data-title="The red cliffs were beautiful. It was really hot in the desert but we did a lot of walking through the canyons.">
-                <img src="images/thumbnails/05.jpg" alt="Desert" title="The red cliffs were beautiful. It was really hot in the desert but we did a lot of walking through the canyons.">
+                    <span class="display-none">The red cliffs were beautiful. It was really hot in the desert but we did a lot of walking through the canyons.</span>
+                    <img src="images/thumbnails/05.jpg" alt="Desert" title="The red cliffs were beautiful. It was really hot in the desert but we did a lot of walking through the canyons.">
                 </a>
 
             <!--Fall-->
                 <a href="images/larger/06.jpg" class="large" data-lightbox="large" data-title="Fall is coming, I love when the leaves on the trees start to change color.">
-                <img src="images/thumbnails/06.jpg" alt="Fall" title="Fall is coming, I love when the leaves on the trees start to change color.">
+                    <span class="display-none">Fall is coming, I love when the leaves on the trees start to change color.</span>
+                    <img src="images/thumbnails/06.jpg" alt="Fall" title="Fall is coming, I love when the leaves on the trees start to change color.">
                 </a>
 
             <!--Plantation-->
                 <a href="images/larger/07.jpg" class="large" data-lightbox="large" data-title="I drove past this plantation yesterday, everything is so green!">
-                <img src="images/thumbnails/07.jpg" alt="Plantation" title="I drove past this plantation yesterday, everything is so green!">
+                    <span class="display-none">I drove past this plantation yesterday, everything is so green!</span>
+                    <img src="images/thumbnails/07.jpg" alt="Plantation" title="I drove past this plantation yesterday, everything is so green!">
                 </a>
 
             <!--Dunes-->
                 <a href="images/larger/08.jpg" class="large" data-lightbox="large" data-title="My summer vacation to the Oregon Coast. I love the sandy dunes!">
-                <img src="images/thumbnails/08.jpg" alt="Dunes" title="My summer vacation to the Oregon Coast. I love the sandy dunes!">
+                    <span class="display-none">My summer vacation to the Oregon Coast. I love the sandy dunes!</span>
+                    <img src="images/thumbnails/08.jpg" alt="Dunes" title="My summer vacation to the Oregon Coast. I love the sandy dunes!">
                 </a>
 
             <!--Countryside Lane-->
                 <a href="images/larger/09.jpg" class="large" data-lightbox="large" data-title="We enjoyed a quiet stroll down this countryside lane.">
-                <img src="images/thumbnails/09.jpg" alt="Countryside Lane" title="We enjoyed a quiet stroll down this countryside lane.">
+                    <span class="display-none">We enjoyed a quiet stroll down this countryside lane.</span>
+                    <img src="images/thumbnails/09.jpg" alt="Countryside Lane" title="We enjoyed a quiet stroll down this countryside lane.">
                 </a>
 
             <!--Sunset-->
                 <a href="images/larger/10.jpg" class="large" data-lightbox="large" data-title="Sunset at the coast! The sky turned a lovely shade of orange.">
-                <img src="images/thumbnails/10.jpg" alt="Sunset" title="Sunset at the coast! The sky turned a lovely shade of orange.">
+                    <span class="display-none">Sunset at the coast! The sky turned a lovely shade of orange.</span>
+                    <img src="images/thumbnails/10.jpg" alt="Sunset" title="Sunset at the coast! The sky turned a lovely shade of orange.">
                 </a>
 
             <!--Cave-->
                 <a hfef="images/larger/11.jpg" class="large" data-lightbox="large" data-title="I did a tour of a cave today and the view of the landscape below was breathtaking.">
-                <img src="images/thumbnails/11.jpg" alt="Cave" title="I did a tour of a cave today and the view of the landscape below was breathtaking.">
+                    <span class="display-none">I did a tour of a cave today and the view of the landscape below was breathtaking.</span>
+                    <img src="images/thumbnails/11.jpg" alt="Cave" title="I did a tour of a cave today and the view of the landscape below was breathtaking.">
                 </a>
 
             <!--Bluebells-->
                 <a href="images/larger/12.jpg" class="large" data-lightbox="large" data-title="I walked through this meadow of bluebells and got a good view of the snow on the mountain before the fog came in.">
-                <img src="images/thumbnails/12.jpg" alt="Bluebells" title="I walked through this meadow of bluebells and got a good view of the snow on the mountain before the fog came in.">
+                    <span class="display-none">I walked through this meadow of bluebells and got a good view of the snow on the mountain before the fog came in.</span>
+                    <img src="images/thumbnails/12.jpg" alt="Bluebells" title="I walked through this meadow of bluebells and got a good view of the snow on the mountain before the fog came in.">
                 </a>
+            </div>
         </section>
         <script src="js/jquery-3.2.1.min.js"></script>
-        <script type="text/javascript" src="jquery-2.0.2.min.js"></script>
+        <script src="js/searchbox/jquery.hideseek.min.js"></script>
         <script src="dist/lightbox.js"></script>
         <script src="js/scripts.js"></script>
     </body>
